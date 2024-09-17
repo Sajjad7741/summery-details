@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+.wrap {
+  margin: auto;
+  display: flex;
+}
+.leftCard {
+  width: 45%;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 25px;
+}
+.leftCardResult {
+  color: hsla(234, 85%, 45%, 0.8);
+  padding-bottom: 20px;
+}
+.boldText {
+  padding: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  margin-bottom: 30px;
+}
+.boldText h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 3em;
+  line-height: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.boldText span {
+  color: hsl(241, 100%, 89%);
+}
+.leftCard h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+.leftCard p {
+  color: hsl(241, 100%, 89%);
+  font-size: 14px;
+}
+.rightCard {
+  width: 45%;
+  padding: 30px;
+}
+.rightCard h3 {
+  color: #000000;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.rightCard .common {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 6px;
+}
+.rightCard .common img {
+  vertical-align: middle;
+}
+.rightCard #red {
+  background: hsl(0, 100%, 67%, 0.1);
+  color: hsl(224, 30%, 27%);
+}
+.common span {
+  padding: 5px 10px;
+  line-height: 20px;
+}
+#red span:first-of-type {
+  color: hsl(0, 100%, 67%);
+}
+#yellow span:first-of-type {
+  color: hsl(39, 100%, 56%);
+}
+#green span:first-of-type {
+  color: hsl(166, 100%, 37%);
+}
+#blue span:first-of-type {
+  color: hsl(234, 85%, 45%);
+}
+.common img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+.rightCard #yellow {
+  background: hsl(39, 100%, 56%, 0.1);
+}
+.rightCard #green {
+  background: hsl(166, 100%, 37%, 0.1);
+}
+.rightCard #blue {
+  background: hsl(234, 85%, 45%, 0.1);
+}
+.rightCard .btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+}
